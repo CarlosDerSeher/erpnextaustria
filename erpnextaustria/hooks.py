@@ -11,6 +11,16 @@ app_color = "#627f43"
 app_email = "info@libracore.com"
 app_license = "AGPL"
 
+# Apps screen (Frappe v15+/v16)
+add_to_apps_screen = [
+    {
+        "name": "erpnextaustria",
+        "logo": "/assets/erpnextaustria/images/logo.svg",
+        "title": "ERPNext Austria",
+        "route": "/desk/at-vat-declaration",
+    }
+]
+
 # Includes in <head>
 # ------------------
 
